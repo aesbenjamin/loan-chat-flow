@@ -6,32 +6,47 @@ interface HeaderProps {
 
 export function Header({ onButtonClick }: HeaderProps) {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-30">
+    <header className="fixed top-0 left-0 right-0 bg-[#3d3d3d] z-50">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="h-8 w-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">C</span>
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 bg-primary rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-lg">C</span>
+            </div>
+            <span className="text-xl font-bold text-white">Creditas</span>
           </div>
-          <span className="text-xl font-bold text-foreground">CreditoFácil</span>
         </div>
 
-        <nav className="hidden md:flex items-center gap-6">
-          <Button variant="ghost" onClick={onButtonClick}>
+        <nav className="hidden lg:flex items-center gap-8">
+          <button className="text-white hover:text-primary font-normal transition-colors text-sm">
             Para você
-          </Button>
-          <Button variant="ghost" onClick={onButtonClick}>
+          </button>
+          <button className="text-white hover:text-primary font-normal transition-colors text-sm">
             Para empresas
-          </Button>
-          <Button variant="ghost" onClick={onButtonClick}>
+          </button>
+          <button className="text-white hover:text-primary font-normal transition-colors text-sm">
+            Para parceiros
+          </button>
+          <button className="text-white hover:text-primary font-normal transition-colors text-sm">
+            Creditas
+          </button>
+          <button className="text-white hover:text-primary font-normal transition-colors text-sm">
             Ajuda
-          </Button>
+          </button>
         </nav>
 
         <div className="flex items-center gap-3">
-          <Button variant="hero" size="lg" onClick={onButtonClick}>
+          <Button 
+            onClick={onButtonClick}
+            className="bg-primary hover:bg-primary-hover text-white font-semibold px-6 py-2.5 text-sm rounded-md hidden sm:inline-flex"
+          >
             Simule seu crédito
           </Button>
-          <Button variant="outline" onClick={onButtonClick}>
+          <Button 
+            onClick={onButtonClick}
+            variant="outline" 
+            className="border-2 border-white text-white hover:border-primary hover:bg-primary hover:text-white font-semibold px-6 py-2.5 text-sm rounded-md hidden sm:inline-flex bg-transparent"
+          >
             Já sou cliente
           </Button>
         </div>

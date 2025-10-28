@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 20% 15%;
 
-    --primary: 84 95% 45%;
+    --primary: 84 82% 51%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 84 95% 40%;
+    --primary-hover: 84 82% 45%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 210 20% 15%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 84 95% 45%;
+    --accent: 84 82% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,14 +35,14 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 84 95% 45%;
+    --ring: 84 82% 51%;
 
     --radius: 0.75rem;
 
-    --gradient-hero: linear-gradient(135deg, hsl(84 95% 45%) 0%, hsl(84 80% 50%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(84 82% 51%) 0%, hsl(84 82% 55%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
-    --shadow-card: 0 4px 24px hsl(84 95% 45% / 0.08);
-    --shadow-hover: 0 8px 32px hsl(84 95% 45% / 0.12);
+    --shadow-card: 0 4px 24px hsl(84 82% 51% / 0.08);
+    --shadow-hover: 0 8px 32px hsl(84 82% 51% / 0.12);
     
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -64,9 +64,9 @@ All colors MUST be HSL.
     --popover: 222.2 47% 15%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 84 95% 45%;
+    --primary: 84 82% 51%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 84 95% 50%;
+    --primary-hover: 84 82% 45%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -74,7 +74,7 @@ All colors MUST be HSL.
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 84 95% 45%;
+    --accent: 84 82% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -82,9 +82,9 @@ All colors MUST be HSL.
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 84 95% 45%;
+    --ring: 84 82% 51%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(84 95% 45%) 0%, hsl(84 80% 50%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(84 82% 51%) 0%, hsl(84 82% 55%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(222.2 47% 15%) 0%, hsl(222.2 47% 18%) 100%);
     --shadow-card: 0 4px 24px hsl(0 0% 0% / 0.3);
     --shadow-hover: 0 8px 32px hsl(0 0% 0% / 0.4);
